@@ -1,0 +1,19 @@
+        .faq-icon.flipped {
+            parent .faq-header & {background-color: green;}
+            transform: rotate(180deg);
+            color: white;
+        }
+            .faq-answer.visible {
+            max-height: 150px; /* Sufficient height for most answers. Adjust if needed. */
+            opacity: 1;
+            padding: 15px 25px 20px; /* Add back padding when visible */
+            border-top: none; /* Separator for answer */
+        }
+        .faq-header.active {
+            background-color: #2DA884; /* Light Green Background when active */
+            color: white; /* Change text color to white when active */
+            border-bottom: none; /* Remove border when answer is visible (looks cleaner) */
+        }
+        .faq-header.active h3{
+            color: white; /* Change text color to white when active */
+        }
