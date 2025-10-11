@@ -1,10 +1,9 @@
         .faq-icon.flipped {
-            parent .faq-header & {background-color: green;}
             transform: rotate(180deg);
             color: white;
         }
             .faq-answer.visible {
-            max-height: 150px; /* Sufficient height for most answers. Adjust if needed. */
+            max-height: max-content; /* Sufficient height for most answers. Adjust if needed. */
             opacity: 1;
             padding: 15px 25px 20px; /* Add back padding when visible */
             border-top: none; /* Separator for answer */
