@@ -16,3 +16,10 @@ const faqHeaders = document.querySelectorAll('.faq-header');
                 answerElement.classList.toggle('visible');
             });
         });
+
+
+        window.addEventListener('load', function() {
+            const preloader = document.getElementById('Preloader');
+            document.body.classList.add('scroll')
+            Preloader.style.display = 'none'
+        })
